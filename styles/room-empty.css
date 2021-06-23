@@ -1,0 +1,25 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.2rem;
+}
+
+.question h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--black);
+  font-size: 1.8rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+  width: 27.7rem;
+}
+.question p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey-dark);
+  line-height: 1.9rem;
+  text-align: center;
+  width: 27.7rem;
+}
