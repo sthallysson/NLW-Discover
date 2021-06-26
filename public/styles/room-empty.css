@@ -12,7 +12,7 @@
   font-size: 1.8rem;
   margin-bottom: 1.3rem;
   text-align: center;
-  width: 27.7rem;
+  width: 28.7rem;
 }
 .question p {
   font-size: 1.4rem;
@@ -20,7 +20,7 @@
   color: var(--grey-dark);
   line-height: 1.9rem;
   text-align: center;
-  width: 27.7rem;
+  width: 28.7rem;
 }
 .question .bg {
   background: url("/images/ilustracao.svg") no-repeat top/contain;
