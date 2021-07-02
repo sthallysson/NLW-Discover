@@ -51,6 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .modal-wrapper .modal .buttons > .button {
@@ -60,4 +61,12 @@
 .modal-wrapper .modal .buttons > button,
 .modal-wrapper .modal .buttons > .button {
   padding: 1.3rem 3.2rem;
+}
+
+/*--Responsividade--*/
+@media (max-width: 545px) {
+  .modal-wrapper .modal .buttons > button,
+  .modal-wrapper .modal .buttons > .button {
+    margin-top: 1rem;
+  }
 }

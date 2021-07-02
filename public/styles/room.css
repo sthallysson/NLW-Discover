@@ -141,3 +141,13 @@
 .question-wrapper.read .question-content .user {
   background-color: var(--grey-blue);
 }
+
+/*--Responsividade--*/
+@media (max-width: 550px) {
+  #room header {
+    justify-content: center;
+  }
+  #room header .buttons {
+    display: none;
+  }
+}
